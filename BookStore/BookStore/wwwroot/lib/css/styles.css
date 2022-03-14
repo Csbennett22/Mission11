@@ -1,0 +1,24 @@
+﻿.mybtn {
+    font-family: "Fantasy", 'Bookshelf Symbol 7', sans-serif;
+    font-style: normal;
+    font-size: 15px !important;
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+.mybtn:hover {
+    background-color: RoyalBlue;
+}
+
+.vertical-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
